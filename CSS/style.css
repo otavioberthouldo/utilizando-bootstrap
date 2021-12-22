@@ -1,13 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
 .navbar{
     background: linear-gradient(145deg, rgb(195, 240, 200), rgb(80, 155, 245));
-
+    padding-left: 50px;
 }
 
 .margin{
-   
-    padding: auto 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    
+   /* border-top: 1px	solid	red;	/*	borda	vermelha	em	cima	*/
+   /* border-right: 1px	solid	red;	/*	borda	vermelha	à	direita	*/
+   /* border-bottom: 1px	solid	red;	/*	borda	vermelha	embaixo	*/
+   /*border-left: 1px	solid	red;	/*	borda	vermelha	à	esquerda	*/
+
 }
 
 .quem-somos{
-    background-color: blueviolet;
+    background-color: rgb(195, 240, 200);
+}
+
+.parceiros{
+    background-color: rgb(143, 204, 223);
+}
+
+.bg-footer{
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+.serviços{
+    margin-bottom: 10px;
 }
